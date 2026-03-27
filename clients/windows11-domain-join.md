@@ -1,14 +1,14 @@
-# Windows 11 Domain Join
+# Windows Client Domain Join
 
 ## Objective
-Join Windows 11 client to Active Directory domain for centralized authentication.
+Join Windows 11 clients to Active Directory domain.
 
 ---
 
 ## Configuration
 
-- Configured DNS to point to Domain Controller (192.168.1.4)
-- Joined system to domain: peterlab.local
+- Configured DNS to Domain Controller (192.168.1.4)
+- Joined devices to domain: peterlab.local
 - Authenticated using domain credentials
 
 ---
@@ -18,3 +18,12 @@ Join Windows 11 client to Active Directory domain for centralized authentication
 - Successfully logged in using domain user account
 - Verified Group Policy application
 - Confirmed automatic NAS drive mapping
+
+---
+
+## Domain Authentication Verification
+
+- Verified domain login using Active Directory user accounts
+- Confirmed user context using `whoami`
+- Validated Group Policy application and drive mapping
+- Ensured role-based access to network resources
