@@ -11,10 +11,16 @@
 - Ready to begin Active Directory configuration
 
 
-## Day X - Active Directory Deployment
+## Day 1 - Active Directory Deployment
 
 - Installed AD DS and DNS roles
 - Promoted server to Domain Controller
 - Created forest: peterlab.local
 - Verified domain login (PETERLAB\Administrator)
+
+## Day 1 - Synology Integration
+
+- Joined Synology NAS to Active Directory
+- Verified DNS and domain communication
+- Enabled domain authentication
 
